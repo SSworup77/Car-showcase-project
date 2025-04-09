@@ -6,12 +6,13 @@ export default function Home() {
     <main className='overflow-hidden'>
       <Hero/>
       <div className="mt-12 padding-x padding-y max-width" id="discover">
-        <div className="home_text-container">
+        <div className="home__text-container">
           <h1 className="text-4xl font-extrabold text-black-100">Car Catalogue</h1>
           <p>Explore the collection of cars</p>
         </div>
-        <div className="home__fiters">
+        <div className="home__filters">
           <SearchBar/>
+
           <div className="home__filter-container">
             <CustomFilter/>
             <CustomFilter/>
