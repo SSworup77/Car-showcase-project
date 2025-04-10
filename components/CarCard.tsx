@@ -24,7 +24,7 @@ const CarCard = ({ car }: CarCardProps) => {
                 <span className="self-start text-[14px] font-semibold">
                     $ 
                 </span>
-                {carRent}
+                55
                 <span className="self-start text-[14px] font-md">
                     /day
                 </span>
